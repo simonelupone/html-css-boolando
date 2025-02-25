@@ -353,3 +353,9 @@ main {
 .last-price {
     text-decoration: line-through;
 }
+
+footer {
+    background: #000;
+    color: #FFF;
+    padding: 40px;
+}
