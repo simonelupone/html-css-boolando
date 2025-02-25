@@ -311,6 +311,10 @@ main {
     z-index: 2;
 }
 
+.card:hover i.fa-heart {
+    color: red;
+}
+
 .upper-card i.fa-heart {
     top: 30px;
     right: 0;
