@@ -285,39 +285,24 @@ main {
     width: 100%;
 }
 
+.card {
+    width: 100%;
+}
+
 .upper-card {
     position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
-.upper-card img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.upper-card .main-img {
-    opacity: 1;
-    z-index: 1;
-}
-
-.upper-card .side-img {
-    opacity: 0;
-    z-index: 1;
 }
 
 .card:hover .main-img {
-    opacity: 0;
+    display: none;
 }
 
 .card:hover .side-img {
-    opacity: 1;
+    display: block;
+}
+
+.side-img {
+    display: none;
 }
 
 .upper-card .tags,
@@ -353,4 +338,18 @@ main {
 
 .tag {
     background: green;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.current-price {
+    font-weight: bold;
+    color: red;
+}
+
+.last-price {
+    text-decoration: line-through;
 }
