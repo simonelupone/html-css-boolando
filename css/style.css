@@ -298,7 +298,7 @@ main {
 }
 
 .card:hover .side-img {
-    display: block;
+    display: inline-block;
 }
 
 .side-img {
